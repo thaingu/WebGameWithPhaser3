@@ -1,0 +1,11 @@
+{
+  "name": "webgamewithphaser3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thaingu/WebGameWithPhaser3.git",
+  "author": "Thai",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.18.1"
+  }
+}
