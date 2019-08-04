@@ -6,6 +6,9 @@
   "author": "Thai",
   "license": "MIT",
   "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {
     "phaser": "^3.18.1"
   }
 }
