@@ -12,7 +12,7 @@ class SceneMain extends Phaser.Scene {
       frameWidth: 16,
       frameHeight: 16
     });
-    this.load.image('sprEnemy1', 'content/sprEnemy1.png');
+    this.load.image('sprEnemy1', 'content/davide.png');
     this.load.spritesheet('sprEnemy2', 'content/sprEnemy2.png', {
       frameWidth: 16,
       frameHeight: 16
@@ -114,6 +114,7 @@ class SceneMain extends Phaser.Scene {
             Phaser.Math.Between(0, this.game.config.width),
             0
           );
+          enemy.setScale(0.05);
         }
 
         if (enemy !== null) {
